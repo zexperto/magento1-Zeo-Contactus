@@ -1,0 +1,12 @@
+<?xml version="1.0"?>   
+<layout version="1.0.0">   
+  <contactus_index_index>   
+    <reference name="root">   
+      <action method="setTemplate"><template>page/1column.phtml</template></action>   
+    </reference>   
+    <reference name="content">   
+      <block type="contactus/index" name="contactus_index" template="zeo/contactus/index.phtml"/>   
+    </reference>   
+  </contactus_index_index>   
+</layout>   
+	

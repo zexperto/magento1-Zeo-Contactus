@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Zeo_Contactus>
+			<version>1.0.0</version>
+		</Zeo_Contactus>
+	</modules>
+	<frontend>
+		<routers>
+			<contactus>
+				<use>standard</use>
+				<args>
+					<module>Zeo_Contactus</module>
+					<frontName>contactus</frontName>
+				</args>
+			</contactus>
+		</routers>
+		<layout>
+			<updates>
+				<contactus>
+					<file>zeo/contactus.xml</file>
+				</contactus>
+			</updates>
+		</layout>
+	</frontend>
+	<global>
+		<template>
+			<email>
+				<zeo_contactus_template translate="label" module="contactus">
+					<label>Contact us Form</label>
+					<file>zeo/contactus/contactus.html</file>
+					<type>html</type>
+				</zeo_contactus_template>
+			</email>
+		</template>
+		<helpers>
+			<contactus>
+				<class>Zeo_Contactus_Helper</class>
+			</contactus>
+		</helpers>
+		<blocks>
+			<contactus>
+				<class>Zeo_Contactus_Block</class>
+			</contactus>
+		</blocks>
+	</global>
+</config> 

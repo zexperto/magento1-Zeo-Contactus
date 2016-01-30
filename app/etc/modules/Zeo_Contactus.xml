@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Zeo_Contactus>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Zeo_Contactus>
+  </modules>
+</config>
