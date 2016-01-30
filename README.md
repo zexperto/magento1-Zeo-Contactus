@@ -1,2 +1,2 @@
-# magento1-zeo-contactus
-Magento Custom Contact us Form
+# magento1-Zeo-Contactus
+Create Custom Contact us Form
